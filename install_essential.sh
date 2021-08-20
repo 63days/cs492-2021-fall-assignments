@@ -9,4 +9,5 @@ sudo apt-get install -y mesa-utils \
 	libglu1-mesa-dev \
 	libx11-dev \
 	libxi-dev \
-	libxmu-dev
+	libxmu-dev \
+	x11-apps
