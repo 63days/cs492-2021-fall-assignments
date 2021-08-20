@@ -1,5 +1,6 @@
 #dependencies
 sudo apt-get install -y mesa-utils \
+	cmake \
 	xorg-dev \
 	freeglut3 \
 	freeglut3-dev \
@@ -12,3 +13,4 @@ sudo apt-get install -y mesa-utils \
 	libxmu-dev \
 	x11-apps \
 	libeigen3-dev
+# If using Xquartz in MAC, defaults write org.macosforge.xquartz.X11 enable_iglx -bool true and re-run Xquartz may need to set xhost + IP
