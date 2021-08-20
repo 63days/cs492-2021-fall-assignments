@@ -10,4 +10,5 @@ sudo apt-get install -y mesa-utils \
 	libx11-dev \
 	libxi-dev \
 	libxmu-dev \
-	x11-apps
+	x11-apps \
+	libeigen3-dev
