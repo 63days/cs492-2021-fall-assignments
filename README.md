@@ -42,7 +42,8 @@ $ sudo vi /etc/ssh/sshd_config
 Run:
 
 ```shell
-wget https://raw.githubusercontent.com/63days/cs492-2021-fall-assignments/main/install_essential.sh?token=AJAJYDVDUO5LFZQHNTMRJYDBFIVTY -O install_essential.sh && sh install_essential.sh
+wget https://raw.githubusercontent.com/63days/cs492-2021-fall-assignments/main/install_essential.sh?token=AJAJYDVDUO5LFZQHNTMRJYDBFIVTY -O install_essential.sh \
+ && sh install_essential.sh
 ```
 For test, run ` $ xclock `
 
@@ -96,7 +97,8 @@ After conecting to the server,
 Run:
 
 ```shell
-wget https://raw.githubusercontent.com/63days/cs492-2021-fall-assignments/main/install_essential.sh?token=AJAJYDVDUO5LFZQHNTMRJYDBFIVTY -O install_essential.sh && sh install_essential.sh
+wget https://raw.githubusercontent.com/63days/cs492-2021-fall-assignments/main/install_essential.sh?token=AJAJYDVDUO5LFZQHNTMRJYDBFIVTY -O install_essential.sh \
+ && sh install_essential.sh
 ```
 For test, run ` $ xclock `
 
