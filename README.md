@@ -37,7 +37,8 @@ $ sudo vi /etc/ssh/sshd_config
 Run:
 
 ```shell
-wget https://raw.githubusercontent.com/63days/cs492-2021-fall-assignments/main/install_essential.sh?token=AJAJYDVDUO5LFZQHNTMRJYDBFIVTY -O install_essential.sh
+$ wget https://raw.githubusercontent.com/63days/cs492-2021-fall-assignments/main/install_essential.sh?token=AJAJYDVDUO5LFZQHNTMRJYDBFIVTY -O install_essential.sh
+$ sh install_essential.sh
 ```
 For test, run ` $ xclock `
 
@@ -45,6 +46,39 @@ You should be able to see a GUI watch.
 
 ![xclock](./docs/xclock.png)
 
+## Windows
+### 1. Install XMing
+* Install Xming in https://sourceforge.net/projects/xming/ (Just keep pressing the next.)
+
+* After the installation, check Xming is running.
+
+![xming_running](./docs/xming_running.png)
+### 2. Install & Setup PuTTY
+
+* Install PuTTY in https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html 
+* Run PuTTY and enter the IP Address
+
+![putty](./docs/putty.png)
+
+* Go to SSH/Auth menu and load a private key (*Refer https://docs.oracle.com/en/cloud/paas/goldengate-cloud/tutorial-change-private-key-format/ to change the format of the ssh private key.*)
+
+![putty_auth](./docs/putty_auth.png)
+
+* Go to X11 menu and check "Enable X11 forwarding".
+
+![putty_setup](./docs/putty_setup.png)
+
+### 3. Install libraries
+* After connecting to the server, run:
+
+```shell
+$ wget https://raw.githubusercontent.com/63days/cs492-2021-fall-assignments/main/install_essential.sh?token=AJAJYDVDUO5LFZQHNTMRJYDBFIVTY -O install_essential.sh
+$ sh install_essential.sh
+```
+For test, run ` $ xclock `
+
+You should be able to see a GUI watch.
+![window_xclock](./docs/window_xclock.png)
 
 
 
