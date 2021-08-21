@@ -9,6 +9,7 @@
 ### 2. Edit the configuration 
 
 * Edit the configuration in ` /etc/ssh/ssh_config` and `/etc/ssh/sshd_config` 
+
    `$ sudo vi /etc/ssh/ssh_config`
    ```shell
    ForwardAgent yes
