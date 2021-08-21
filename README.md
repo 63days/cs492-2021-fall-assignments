@@ -65,7 +65,7 @@ You should be able to see a GUI clock.
 
 ![putty](./docs/putty.png)
 
-* Go to SSH/Auth menu and load a private key (*Refer https://docs.oracle.com/en/cloud/paas/goldengate-cloud/tutorial-change-private-key-format/ to change the format of the ssh private key.*)
+* Go to SSH/Auth menu and load a private key (*Refer to https://docs.oracle.com/en/cloud/paas/goldengate-cloud/tutorial-change-private-key-format/ if you have to change the format of the ssh private key.*)
 
 ![putty_auth](./docs/putty_auth.png)
 
