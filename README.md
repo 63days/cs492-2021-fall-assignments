@@ -30,8 +30,8 @@
 `$ ssh -XY -i {PEM_KEY} ubuntu@{IP_ADDRESS} -p 22`
 ### 4. Go back to step 2 and set the configuration of the server in the same way.
 ```shell
-$ vi /etc/ssh/ssh_config 
-$ vi /etc/ssh/sshd_config
+$ sudo vi /etc/ssh/ssh_config 
+$ sudo vi /etc/ssh/sshd_config
 ```
 ### 5. Install libraries
 Run:
@@ -40,6 +40,7 @@ Run:
 wget https://raw.githubusercontent.com/63days/cs492-2021-fall-assignments/main/install_essential.sh?token=AJAJYDVDUO5LFZQHNTMRJYDBFIVTY -O install_essential.sh
 ```
 For test, run ` $ xclock `
+
 You should be able to see a GUI watch.
 
 ![xclock](./docs/xclock.png)
