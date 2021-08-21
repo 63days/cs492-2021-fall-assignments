@@ -1,6 +1,11 @@
 # cs492d-2021-fall-assignments
+### Table of contents
+
+- [MAC](#mac)
+- [Windows](#windows)
 
 ## MAC
+
 ### 1. Install Xquartz 
 
 * Install Xquartz in https://www.xquartz.org/releases/XQuartz-2.7.11.html
