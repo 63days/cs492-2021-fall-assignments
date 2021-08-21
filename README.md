@@ -68,8 +68,28 @@ You should be able to see a GUI watch.
 
 ![putty_setup](./docs/putty_setup.png)
 
-### 3. Install libraries
-* After connecting to the server, run:
+### 3. Edit the configuration
+After conecting to the server,
+* Edit the configuration in ` /etc/ssh/ssh_config` and `/etc/ssh/sshd_config` 
+
+   `$ sudo vi /etc/ssh/ssh_config`
+   ```shell
+   ForwardAgent yes
+   ForwardX11 yes
+   ForwardX11Trusted yes
+   ```
+
+   ![ssh_config](./docs/ssh_config.png)
+
+   `$ sudo vi /etc/ssh/sshd_config`
+   ```shell
+   X11Forwarding yes
+   ```
+
+   ![sshd_config](./docs/sshd_config.png)
+
+### 4. Install libraries
+Run:
 
 ```shell
 $ wget https://raw.githubusercontent.com/63days/cs492-2021-fall-assignments/main/install_essential.sh?token=AJAJYDVDUO5LFZQHNTMRJYDBFIVTY -O install_essential.sh
