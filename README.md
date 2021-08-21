@@ -47,7 +47,7 @@ $ sh install_essential.sh
 ```
 For test, run ` $ xclock `
 
-You should be able to see a GUI watch.
+You should be able to see a GUI clock.
 
 ![xclock](./docs/xclock.png)
 
@@ -102,7 +102,7 @@ $ sh install_essential.sh
 ```
 For test, run ` $ xclock `
 
-You should be able to see a GUI watch.
+You should be able to see a GUI clock.
 ![window_xclock](./docs/window_xclock.png)
 
 
