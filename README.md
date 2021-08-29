@@ -1,5 +1,5 @@
 # cs492d-2021-fall-assignments
-### Table of contents
+### OS
 
 - [MAC](#mac)
 - [Windows](#windows)
@@ -39,7 +39,7 @@ $ sudo vi /etc/ssh/ssh_config
 $ sudo vi /etc/ssh/sshd_config
 ```
 ### 5. Install libraries
-Run:
+Run in the server:
 
 ```shell
 wget https://raw.githubusercontent.com/63days/cs492-2021-fall-assignments/main/install_essential.sh?token=AJAJYDVDUO5LFZQHNTMRJYDBFIVTY -O install_essential.sh \
@@ -94,7 +94,7 @@ After conecting to the server,
    ![sshd_config](./docs/sshd_config.png)
 
 ### 4. Install libraries
-Run:
+Run in the server:
 
 ```shell
 wget https://raw.githubusercontent.com/63days/cs492-2021-fall-assignments/main/install_essential.sh?token=AJAJYDVDUO5LFZQHNTMRJYDBFIVTY -O install_essential.sh \
