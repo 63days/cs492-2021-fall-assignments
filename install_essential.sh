@@ -1,10 +1,11 @@
-#dependencies
+# dependencies
 sudo apt-get update && sudo apt-get install -y \
         build-essential \
         tmux \
         apt-utils \
         mesa-utils \
         cmake \
+        make \
         xorg-dev \
         freeglut3 \
         freeglut3-dev \
@@ -17,4 +18,10 @@ sudo apt-get update && sudo apt-get install -y \
         libxmu-dev \
         x11-apps \
         libeigen3-dev
+        
+# set symbolic link to Eigen
+sudo ln -s eigen3/Eigen Eigen
+
 # If using Xquartz in MAC, you should run "defaults write org.macosforge.xquartz.X11 enable_iglx -bool true" and re-run Xquartz. May need to set xhost + IP
+
+
